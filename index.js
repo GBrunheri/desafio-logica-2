@@ -2,7 +2,7 @@
 
 let nome = "Misterioso"
 let saldo = saldoVitorias(45, 13)
-console.log("O Herói " + nome + " tem um saldo de " + saldo + " vitorias e está no nível " + nivelRanking(saldo))
+console.log(`O herói ${nome} tem ${saldo} vitorias e esta no nivel ` + nivelRanking(saldo))
 
 
 
